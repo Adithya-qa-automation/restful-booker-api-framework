@@ -1,6 +1,6 @@
 import {APIRequestContext} from "@playwright/test";
 import{ApiResponse, Booking, CreateBookingResponseBody} from "../models/booking";
-import{getAuthHeaders, JSON_HEADERS} from "../utils/constants";
+import{getAuthHeaders, JSON_HEADERS} from "../utils/headers";
 
 
 

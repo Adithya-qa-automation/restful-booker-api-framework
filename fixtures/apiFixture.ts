@@ -1,5 +1,5 @@
 import {test as base, expect} from '@playwright/test';
-import AuthService from '../services/authService';
+import AuthService from "../services/TempAuthService"
 import BookingService from '../services/BookingService';
 
 type ApiFixture = {
